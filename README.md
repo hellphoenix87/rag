@@ -1,6 +1,6 @@
 # RAG Backend with FastAPI, Qdrant, Ollama (Mistral), and React Frontend
 
-This project is a Retrieval-Augmented Generation (RAG) stack using **FastAPI**, **Qdrant**, **Ollama** (with Mistral LLM), and a React frontend.
+This project is a Retrieval Augmented Generation (RAG) stack using **FastAPI**, **Qdrant**, **Ollama** (with Mistral LLM), and a React frontend.
 
 ---
 
