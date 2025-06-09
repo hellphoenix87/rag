@@ -18,6 +18,7 @@ This project is a Retrieval-Augmented Generation (RAG) stack using **FastAPI**, 
 
 - [Docker](https://www.docker.com/get-started) and Docker Compose
 - (For local dev) [Ollama](https://ollama.com/download) if you want to run LLM outside Docker
+- (For local dev) [Qdrant] docker pull qdrant/qdrant / docker run -p 6333:6333
 
 ---
 
@@ -26,7 +27,7 @@ This project is a Retrieval-Augmented Generation (RAG) stack using **FastAPI**, 
 1. **Clone the repository**
 
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/hellphoenix87/rag
    cd <your-repo>
    ```
 
