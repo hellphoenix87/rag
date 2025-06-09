@@ -1,0 +1,128 @@
+.response {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.conversationHistory {
+  border: 1px solid #444654;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  background: #40414f;
+  overflow: hidden;
+}
+
+.historyHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background: #343541;
+  border-bottom: 1px solid #444654;
+  font-weight: 600;
+  color: #ececf1;
+}
+
+.clearButton {
+  background: #d32f2f;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+}
+
+.clearButton:hover {
+  background: #b71c1c;
+}
+
+.historyTurn {
+  border-bottom: 1px solid #444654;
+}
+
+.historyTurn:last-child {
+  border-bottom: none;
+}
+
+.historyQuestion {
+  background: #444654;
+  color: #ececf1;
+  padding: 1rem 1.5rem;
+  font-weight: 500;
+}
+
+.historyAnswer {
+  background: #40414f;
+  color: #ececf1;
+  padding: 1rem 1.5rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.userLabel {
+  color: #fbbf24;
+  font-weight: 700;
+  margin-right: 0.5em;
+}
+
+.assistantLabel {
+  color: #10a37f;
+  font-weight: 700;
+  margin-right: 0.5em;
+}
+
+/* Current response styles */
+.header {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #ececf1;
+}
+
+.userMessage {
+  background: #444654;
+  color: #ececf1;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.responseContent {
+  background: #40414f;
+  color: #ececf1;
+  padding: 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  line-height: 1.6;
+  min-height: 60px;
+  position: relative;
+}
+
+.errorContent {
+  background: #5f2120;
+  color: #fecaca;
+  padding: 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  line-height: 1.6;
+  border: 1px solid #dc2626;
+}
+
+.cursor {
+  animation: blink 1s infinite;
+  color: #10a37f;
+  font-weight: bold;
+}
+
+@keyframes blink {
+  0%, 50% {
+    opacity: 1;
+  }
+  51%, 100% {
+    opacity: 0;
+  }
+}
